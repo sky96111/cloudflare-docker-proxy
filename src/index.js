@@ -8,16 +8,16 @@ const dockerHub = "https://registry-1.docker.io";
 const routes = {
   // production
   "docker.skyme.club": dockerHub,
-  "quay.skyme.club": "https://quay.io",
-  "gcr.skyme.club": "https://gcr.io",
-  "k8s-gcr.skyme.club": "https://k8s.gcr.io",
-  "k8s.skyme.club": "https://registry.k8s.io",
-  "ghcr.skyme.club": "https://ghcr.io",
-  "cloudsmith.skyme.club": "https://docker.cloudsmith.io",
-  "ecr.skyme.club": "https://public.ecr.aws",
+  // "quay.skyme.club": "https://quay.io",
+  // "gcr.skyme.club": "https://gcr.io",
+  // "k8s-gcr.skyme.club": "https://k8s.gcr.io",
+  // "k8s.skyme.club": "https://registry.k8s.io",
+  // "ghcr.skyme.club": "https://ghcr.io",
+  // "cloudsmith.skyme.club": "https://docker.cloudsmith.io",
+  // "ecr.skyme.club": "https://public.ecr.aws",
 
-  // staging
-  "docker-staging.skyme.club": dockerHub,
+  // // staging
+  // "docker-staging.skyme.club": dockerHub,
 };
 
 function routeByHosts(host) {
