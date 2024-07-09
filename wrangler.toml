@@ -14,12 +14,12 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 name = "cloudflare-docker-proxy"
 routes = [
   { pattern = "docker.skyme.club", custom_domain = true },
-  { pattern = "quay.skyme.club", custom_domain = true },
-  { pattern = "gcr.skyme.club", custom_domain = true },
-  { pattern = "k8s-gcr.skyme.club", custom_domain = true },
-  { pattern = "k8s.skyme.club", custom_domain = true },
-  { pattern = "ghcr.skyme.club", custom_domain = true },
-  { pattern = "cloudsmith.skyme.club", custom_domain = true },
+  # { pattern = "quay.skyme.club", custom_domain = true },
+  # { pattern = "gcr.skyme.club", custom_domain = true },
+  # { pattern = "k8s-gcr.skyme.club", custom_domain = true },
+  # { pattern = "k8s.skyme.club", custom_domain = true },
+  # { pattern = "ghcr.skyme.club", custom_domain = true },
+  # { pattern = "cloudsmith.skyme.club", custom_domain = true },
 ]
 
 [env.production.vars]
